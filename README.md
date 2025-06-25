@@ -2,7 +2,6 @@
 
 This repository contains the custom HRIS application developed for the technical test.
 
----
 
 ## Setup Instructions
 
@@ -18,10 +17,12 @@ This repository contains the custom HRIS application developed for the technical
     ```bash
     ./install.sh
     ```
+    ./fh start
+    ```
 
 3.  **Install this custom `hris` application:**
     * Go into the running Frappe container: ./fh shell
-    * Get this app (replace `YOUR_GITHUB_USERNAME` with your actual username):
+    * Get the app:
         ```bash
         bench get-app hris [https://github.com/AmhaBK/hris-ERPNext.git](https://github.com/AmhaBK/hris-ERPNext.git)
         ```
