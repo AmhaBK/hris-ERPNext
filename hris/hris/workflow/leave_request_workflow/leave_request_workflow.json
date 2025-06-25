@@ -13,7 +13,7 @@
     },
     {
       "state": "Submitted",
-      "doc_status": 0,
+      "doc_status": 1,
       "allow_edit": "HR Manager"
     },
     {
@@ -22,7 +22,7 @@
     },
     {
       "state": "Rejected",
-      "doc_status": 2
+      "doc_status": 1
     }
   ],
   "transitions": [

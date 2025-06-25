@@ -3,8 +3,10 @@
   "doctype": "Report",
   "ref_doctype": "Employee",
   "report_type": "Script Report",
+  "module": "HRIS",
   "is_standard": "Yes",
   "add_total_row": 1,
+  "script": "annual_leave_usage_report.py"
   "filters": [
     {
       "fieldname": "employee",
